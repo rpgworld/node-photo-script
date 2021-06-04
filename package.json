@@ -1,0 +1,16 @@
+{
+  "name": "scriptgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "photo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm photo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
