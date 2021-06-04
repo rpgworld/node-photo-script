@@ -28,7 +28,7 @@ if (targetFolder == null) {
 }
 
 // 해당 폴더가 존재하지 않을 경우!
-if (!path.existsSync(targetFolder)) {
+if (!fs.existsSync(targetFolder)) {
   console.warn(`${targetFolder} 해당 폴더는 존재하지 않습니다.`);
   return;
 }
